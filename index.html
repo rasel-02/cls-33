@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!-- fave icon  -->
+    <link rel="icon" href="./assets/img/fave_icon.png">
+    <!-- sikick css  -->
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- icon css  -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/styel.css">
+</head>
+
+<body>
+    <!-- nav section Start  -->
+    <nav id="mynav" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/logo.png" class="img-fluid" alt="">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav_menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav_menu">
+                <ul class="navbar-nav mx-auto menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li class="nav-item">
+                    <li>
+                        <a class="nav-link" href="projects.html">Shope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bloges.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contct</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_icon">
+                <ul class="d-flex flex-wrap">
+                    <li>
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav section End  -->
+
+    <main>
+        <!-- banner section start  -->
+        <section id="banner">
+            <div class="banner_slider">
+                <div class=" banner_slider_1" style="background-image: url(./assets/img/banner_bg.jpg)">
+                    <div class="container h-100 d-flex align-items-center">
+                        <div class="banner_item ">
+                            <div>
+                                <h4>Mega Sale</h4>
+                                <h1>Up To 35% Off</h1>
+                                <p>Objectively incubate enabled innovation through leveraged <br> mindshare.
+                                    Competently.
+                                </p>
+                                <button>
+                                    Shop Now
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_slider_2"></div>
+                <div class="banner_slider_3"></div>
+            </div>
+        </section>
+        <!-- banner section end  -->
+
+        <!-- beauty section start  -->
+        <section id="beauty">
+            <div class="container">
+                <div class="row ">
+                    <div class=" col-lg-5 d-flex flex-column justify-content-between ">
+                        <div class="beauty_img">
+                            <img class="img-fluid" src="./assets/img/beauty_1.jpg" alt="">
+                            <div class="overly d-flex flex-wrap align-items-center justify-content-center">
+                                <div class="beauty_item_overly">
+                                    <h2>Beauty Cream</h2>
+                                    <a href="#">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="beauty_img">
+                            <img class="img-fluid" src="./assets/img/beauty_3.jpg" alt="">
+                            <div class="overly d-flex flex-wrap align-items-center justify-content-center">
+                                <div class="beauty_item_overly">
+                                    <h2>Beauty Cream</h2>
+                                    <a href="#">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beauty_2 col-lg-7">
+                        <div class="beauty_img">
+                            <img src="./assets/img/beauty_2.jpg" alt="">
+                            <div class="overly d-flex flex-wrap align-items-center justify-content-center">
+                                <div class="beauty_item_overly">
+                                    <h2>Beauty Cream</h2>
+                                    <a href="#">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- beauty section end  -->
+
+        <!-- new_Products section start  -->
+        <section id="Products">
+            <div class="container">
+                <h2>New Arrivals Products</h2>
+                <div class="products_slider ">
+                    <div class="products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_1.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$150.65 <del>$450.65</del></p>
+                            <h3>Lotion Shower gel</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>-45%</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_2.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$250.65</p>
+                            <h3>Argan Cream Body Butter</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>Sale</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_3.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$175.65</p>
+                            <h3>Compact Face Powder</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_4.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>Sale</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_5.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- new_Products section end  -->
+
+        <!-- ========================================================== -->
+
+        <!-- get up section start  -->
+        <section id="get_up">
+            <div class="container">
+                <div class="get_item">
+                    <h2>Get Up To 35% Off all <br>
+                        Best Spa Cosmetics <br>
+                        Cream
+                    </h2>
+                    <p>Holisticly maximize interoperable action items for effective <br>
+                        e-business. Globally impact enterprise-wide niche markets <br> through dynamic.</p>
+                    <a href="#"> Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- get up section end  -->
+        <!-- ============================================================= -->
+        <!-- Seller section start  -->
+        <section id="Seller">
+            <div class="container">
+                <h2>Best Seller Products</h2>
+                <div class="row">
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_1.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_2.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_3.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_4.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_5.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_6.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_7.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 products_side">
+                        <div class="products_thum ">
+                            <img class="img-fluid" src="./assets/img/products_8.png" alt="">
+                        </div>
+                        <div class="products_info">
+                            <p>$75.65</p>
+                            <h3>Manicure Gel nails, makeup</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="floting_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="product_icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"> <i class="fa-solid fa-cart-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to favorite"><i class="fa-solid fa-heart"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Views"><i class="fa-solid fa-eye"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Signal"><i class="fa-solid fa-signal"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ancore">
+                    <a href="#">See All Products</a>
+                </div>
+            </div>
+        </section>
+        <!-- Seller section end  -->
+
+        <!-- Deals section start  -->
+        <section id="Deals">
+            <div class="container">
+                <h3>Deals Of The Days</h3>
+
+                <div id="cloc_Deals"
+                    class="col-lg-4 mx-auto d-flex flex-wrap justify-content-between 
+                    align-items-center ">
+
+                </div>
+
+                <div class=" row Fairness">
+                    <div class="get_up ">
+                        <h6>Fairness Cream</h6>
+                        <h2>Get Up To 35% Off</h2>
+                        <p>Competently target best-of-breed value without <br> transparent e-commerce. Dramatically
+                            procrastin <br> ate fully tested relationships.</p>
+                        <small>$256.35 <span>$356.35</span></small>
+                        <div class="ancor">
+                            <a href="#">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="get_up ">
+                        <h6>Fairness Cream</h6>
+                        <h2>Get Up To 35% Off</h2>
+                        <p>Competently target best-of-breed value without <br> transparent e-commerce. Dramatically
+                            procrastin <br> ate fully tested relationships.</p>
+                        <small>$256.35 <span>$356.35</span></small>
+                        <div class="ancor">
+                            <a href="#">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="get_up ">
+                        <h6>Body Lotions</h6>
+                        <h2>Get Up To 35% Off</h2>
+                        <p>Credibly empower visionary leadership skills and <br> 24/7 functionalities. Uniquely
+                            whiteboard equity <br> invested.</p>
+                        <small>$256.35 <span>$356.35</span></small>
+                        <div class="ancor">
+                            <a href="#">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Deals section end  -->
+
+        <!-- Beauty section start  -->
+        <section id="Beauty">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="beauty_item col-lg-6">
+                        <h6>SPECIAL OFFER</h6>
+                        <h3>Beauty Inspired by Real <br>
+                            Shine In Life </h3>
+                        <p>Completely grow maintainable niches via tactical services. <br> Progressively synthesize
+                            market positioning paradigms for <br> functional architectures. Professionally aggregate.
+                        </p>
+
+                        <a href="#">Explore More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+
+                    <div class="beauty_vdo col-lg-6">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Beauty section end  -->
+
+        <!-- Latest section start  -->
+        <section id="Latest">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="Latest_silder align-items-center ">
+                    <div class="Latest_img  ">
+                        <img src="./assets/img/new_1.png" alt="" class="img-fluid">
+                        <div class="latest_info">
+                            <h4>Traveling Solo Is Awesome</h4>
+                            <p>Appropriately seize 24/365 markets <br> without adaptive.</p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <small>Jan 04, 2022</small>
+                        </div>
+                    </div>
+                    <div class="Latest_img ">
+                        <img src="./assets/img/new_2.png" alt="" class="img-fluid">
+                        <div class="latest_info">
+                            <h4>Traveling Solo Is Awesome</h4>
+                            <p>Appropriately seize 24/365 markets <br> without adaptive.</p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <small>Jan 04, 2022</small>
+                        </div>
+                    </div>
+                    <div class="Latest_img  ">
+                        <img src="./assets/img/new_1.png" alt="" class="img-fluid">
+                        <div class="latest_info">
+                            <h4>Traveling Solo Is Awesome</h4>
+                            <p>Appropriately seize 24/365 markets <br> without adaptive.</p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <small>Jan 04, 2022</small>
+                        </div>
+                    </div>
+                    <div class="Latest_img ">
+                        <img src="./assets/img/new_3.png" alt="" class="img-fluid">
+                        <div class="latest_info">
+                            <h4>Traveling Solo Is Awesome</h4>
+                            <p>Appropriately seize 24/365 markets <br> without adaptive.</p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <small>Jan 04, 2022</small>
+                        </div>
+                    </div>
+                    <div class="Latest_img ">
+                        <img src="./assets/img/new_4.png" alt="" class="img-fluid">
+                        <div class="latest_info">
+                            <h4>Traveling Solo Is Awesome</h4>
+                            <p>Appropriately seize 24/365 markets <br> without adaptive.</p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <small>Jan 04, 2022</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest section end  -->
+    </main>
+    <!-- footer section start  -->
+    <section id="footer">
+        <div class="container">
+            <div class="car">
+                <div class="row">
+                    <div class="car_item col-lg-3 d-flex align-items-center">
+                        <div class="icon_">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="icon_info">
+                            <h3>FREE SHIPING</h3>
+                            <p>all orders over <small>$150</small> </p>
+                        </div>
+                    </div>
+                    <div class="car_item col-lg-3 d-flex align-items-center">
+                        <div class="icon_">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="icon_info">
+                            <h3>QUICK PAYMENT</h3>
+                            <p>100% secure payment</p>
+                        </div>
+                    </div>
+                    <div class="car_item col-lg-3 d-flex align-items-center">
+                        <div class="icon_">
+                            <i class="fa-solid fa-gift"></i>
+                        </div>
+                        <div class="icon_info">
+                            <h3>FREE RETURNS</h3>
+                            <p>Return money within 30 days</p>
+                        </div>
+                    </div>
+                    <div class="car_item col-lg-3 d-flex align-items-center">
+                        <div class="icon_">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="icon_info">
+                            <h3>24/7 SUPPORT</h3>
+                            <p>Quick Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row facbook">
+                <div class="footer_icon col-lg-5">
+                    <ul class="d-flex">
+                        <li>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-p"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_logo col-lg-5">
+                    <img src="./assets/img/footer_logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="footer_card col-lg-2">
+                    <img src="./assets/img/footer_card.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+
+            <div class=" row">
+                <div class="Account col-lg-2">
+                    <h3>My Account</h3>
+                    <p><i class="fa-solid fa-chevron-right"></i>My Account </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>View Cart </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>Wishlist </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>Compare </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>New Products </p>
+                </div>
+                <div class="Support col-lg-2">
+                    <h3>Support</h3>
+                    <p><i class="fa-solid fa-chevron-right"></i>Help </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>Contact Us </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>Feedback </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>Customer Service </p>
+                    <p><i class="fa-solid fa-chevron-right"></i>Store Locations </p>
+                </div>
+                <div class="Opening col-lg-2">
+                    <h3>Opening Time</h3>
+                    <p><b>Mon - Tue: </b> 8AM - 10PM </p>
+                    <p><b>Wed:</b> 8AM - 7PM</p>
+                    <p><b>Fri:</b> 7AM - 12PM</p>
+                    <p><b>Sat: </b> 9AM - 8PM </p>
+                    <p><b>Sun: </b> Closed</p>
+                </div>
+                <div class="Contact col-lg-3">
+                    <h3>Contact Us</h3>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> 830 Broadway, New York, NY 10003,
+                        United States</a> <br>
+                    <a href="#"><i class="fa-solid fa-phone"></i> +18008660286 </a> <br>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> aetor.info@gmail.com <br> info@aetor.com</a>
+                </div>
+                <div class="Letter col-lg-3">
+                    <h3>News Letter</h3>
+                    <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section End  -->
+
+
+
+
+
+
+
+    <!-- jquery all varson  -->
+    <script src="./assets/js/jquery-1.12.4.min.js"></script>
+    <!-- jquery all varson  -->
+    <!-- silick js  -->
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- silick js  -->
+    <!-- booststrap js  -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- booststrap js  -->
+    <!-- countdowon flg start  -->
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <!-- countdowon flg end  -->
+    <!-- costom js  -->
+    <script src="./assets/js/app.js"></script>
+    <!-- costom js  -->
+</body>
+
+</html>
